@@ -27,7 +27,7 @@ def hangup():
 print "VERBOSE \"############# Iniciando Cadeado ############\" \n"
 
 # Conexao MySQL
-con = MySQLdb.connect(host='localhost', user='root', passwd='ipsafe',db='cadeado')
+con = MySQLdb.connect(host='localhost', user='root', passwd='root',db='cadeado')
 c = con.cursor()
 
 # Consulta se o ramal esta com cadeado habilitado
